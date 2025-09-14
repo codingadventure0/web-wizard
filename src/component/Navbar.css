@@ -10,19 +10,19 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  background: linear-gradient(135deg, #2d2a3e, #2d2a3e);
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 15px white;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #003366;
+  color: white;
   letter-spacing: 1px;
   cursor: pointer;
 }
@@ -35,7 +35,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: #003366;
+  color: white;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -47,14 +47,14 @@
   position: absolute;
   width: 0%;
   height: 2px;
-  background: #003366;
+  background: #dbe0e6;
   left: 0;
   bottom: -5px;
   transition: 0.3s;
 }
 
 .nav-links li a:hover {
-  color: #0055aa;
+  color: white;
 }
 
 .nav-links li a:hover::after {
@@ -64,7 +64,7 @@
 .menu-btn {
   display: none;
   font-size: 28px;
-  color: #003366;
+  color: white;
   cursor: pointer;
 }
 
@@ -73,7 +73,7 @@
     position: fixed;
     top: 70px;
     left: -100%;
-    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    background: linear-gradient(135deg, #2d2a3e, #2d2a3e);
     width: 100%;
     height: 100vh;
     flex-direction: column;
