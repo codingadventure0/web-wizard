@@ -1,0 +1,78 @@
+.connect-section {
+  padding: 2.5rem 1rem;
+  background: transparent;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connect-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.connect-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #b39ddb;
+}
+
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 820px;
+  background: rgba(44, 40, 62, 0.95);
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px #0aae4e;
+}
+
+.connect-input,
+.connect-textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background: #757185;
+  color: #2d2a3e;
+  outline: none;
+  transition: box-shadow 0.3s;
+}
+
+.connect-input:focus,
+.connect-textarea:focus {
+  box-shadow: 0 0 0 2px #3F51B5;
+}
+
+.connect-btn {
+  background: linear-gradient(90deg, #0aae4e, #736bbd);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 0.9rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  /* box-shadow: 0 2px 8px #0aae4e; */
+}
+
+.connect-btn:hover {
+  background: linear-gradient(90deg, #736bbd, #0aae4e);
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .connect-form {
+    padding: 1.2rem 0.5rem;
+    max-width: 98vw;
+  }
+}
