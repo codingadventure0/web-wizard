@@ -17,7 +17,7 @@ const skills = [
 ];
 
 const Skills = () => (
-  <div className="skills-section">
+  <div className="skills-section" id="skill">
     <h2 className="skills-main-title">Technical Skills</h2>
     <div className="skills-grid">
       {skills.map((skill, idx) => (

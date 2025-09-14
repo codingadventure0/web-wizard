@@ -15,7 +15,7 @@ const Connect = () => {
   };
 
   return (
-    <div className="connect-section">
+    <div className="connect-section" id="contact">
       <h2 className="connect-title">Let's Connect</h2>
       <h3 className="connect-subtitle">
         Have a project in mind? Let's discuss how we can bring your ideas to life.

@@ -10,7 +10,7 @@ const Bullet = () => {
           </div>
         </li>
         <li>
-          <div className="same">
+          <div >
             <p>Quick responsive time</p>
           </div>
         </li>

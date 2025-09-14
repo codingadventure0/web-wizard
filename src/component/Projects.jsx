@@ -52,7 +52,7 @@ const projects = [
 ];
 
 const Projects = () => (
-  <div className="projects-section">
+  <div className="projects-section" id="project">
     <h2 className="projects-title">
       Featured <span>Projects</span>
     </h2>

@@ -1,12 +1,9 @@
 .bullet-point p {
   display: flex;
   align-items: center;
-  /* display: grid; */
+  justify-content: center;
   text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.same {
-  align-items: center;
-  display: flex;
-  text-align: center;
-}
