@@ -29,7 +29,7 @@ export default function Footer() {
             <a href="#">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="./assets/icons8-linkedin-50.png">
+            <a href="/icons8-linkedin-50.png">
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a href="#">
