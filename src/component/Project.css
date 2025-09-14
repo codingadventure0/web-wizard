@@ -1,0 +1,135 @@
+.projects-section {
+  padding: 3rem 1rem;
+  background: transparent;
+  color: #fff;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: rgba(44, 40, 62, 0.95);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 1.5rem;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.mern-btn {
+  background: linear-gradient(90deg, #4B006E, #3F51B5);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.mern-btn:hover {
+  background: linear-gradient(90deg, #3F51B5, #4B006E);
+  transform: scale(1.08);
+}
+
+.project-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #d1c4e9;
+}
+
+.features-list {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.feature-btn {
+  background: #3F51B5;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.feature-btn:hover {
+  background: #4B006E;
+  transform: scale(1.1);
+}
+
+.project-actions {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.action-btn {
+  background: linear-gradient(90deg, #3F51B5, #4B006E);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 2px 8px rgba(63,81,181,0.15);
+}
+
+.action-btn:hover {
+  background: linear-gradient(90deg, #4B006E, #3F51B5);
+  transform: scale(1.08);
+}
+
+@media (max-width: 1100px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    width: 90vw;
+    max-width: 400px;
+  }
+}
