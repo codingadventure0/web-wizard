@@ -24,7 +24,6 @@ const Hero = () => {
           ))}
         </div>
         <div className="scroll-down">
-        
           <span className="scroll-icon">&#8595;</span>
         </div>
       </div>
