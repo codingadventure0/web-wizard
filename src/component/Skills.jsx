@@ -2,12 +2,18 @@ import React from "react";
 import "./Skills.css";
 
 const skills = [
+  { title: "HTML", level: "Expert", percent: 95 },
+  { title: "CSS", level: "Expert", percent: 88 },
+  { title: "JavaScript", level: "Expert", percent: 95 },
   { title: "React", level: "Expert", percent: 90 },
   { title: "Node.js", level: "Expert", percent: 85 },
+  { title: "Express", level: "intermediate", percent: 75 },
   { title: "MongoDB", level: "Intermediate", percent: 80 },
-  { title: "Express", level: "Intermediate", percent: 75 },
-  { title: "JavaScript", level: "Expert", percent: 95 },
-  { title: "CSS", level: "Expert", percent: 88 },
+  { title: "Tailwind", level: "Expert", percent: 92 },
+  { title: "REST APIs", level: "Expert", percent: 89 },
+  { title: "VScode", level: "Expert", percent: 90 },
+  { title: "BootStrap", level: "Expert", percent: 90 },
+  { title: "Git", level: "Advanced", percent: 90 },
 ];
 
 const Skills = () => (
@@ -23,7 +29,7 @@ const Skills = () => (
               className="skill-bar"
               style={{
                 width: `${skill.percent}%`,
-                background: "linear-gradient(90deg, #736bbd, #0aae4e)"
+                background: "linear-gradient(90deg, #736bbd, #0aae4e)",
               }}
             ></div>
             <span className="skill-percent">{skill.percent}%</span>
