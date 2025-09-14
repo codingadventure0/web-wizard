@@ -1,14 +1,14 @@
 import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 import "./App.css";
-import Hero from "./component/Hero";
 
 function App() {
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* <h1>Portfolio</h1>
-      <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veniam autem provident perspiciatis minus placeat ipsam nostrum sint. Praesentium illum necessitatibus ratione perspiciatis libero nesciunt dolores. Dolorum labore corrupti odit?</> */}
-      <Hero />
+      <h1>hi</h1>
     </>
   );
 }
