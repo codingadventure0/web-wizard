@@ -3,39 +3,33 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-container">
-        <div className="footer-section about">
-          <h2>Ishwar.dev</h2>
+      <div className="footer-heading">
+        <div>
+          <h3>Ishwar.dev</h3>
+        </div>
+
+        <div>
           <p>Building the future, one line of code at a time.</p>
         </div>
+      </div>
 
-        <div className="footer-section links">
-          <h3>Quick Links</h3>
-          <ul>
-            <li>
-              <a href="#">Projects</a>
-            </li>
-            <li>
-              <a href="#">Skills</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div className="footer-link">
+        <a href="">Project</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a>
+      </div>
 
-        <div className="footer-section social">
-          <div className="social-icons">
-            <a href="#">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="/icons8-linkedin-50.png">
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
+      <div className="footer-section social">
+        <div className="social-icons">
+          <a href="#">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="./icons8-linkedin-50.png">
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-instagram"></i>
+          </a>
         </div>
       </div>
 
