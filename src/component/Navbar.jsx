@@ -14,17 +14,17 @@ const Navbar = () => {
 
       <ul className={isOpen ? "nav-links active" : "nav-links"}>
         <li>
-          <a href="#home" onClick={() => setIsOpen(false)}>
+          <a href="/project" onClick={() => setIsOpen(false)}>
             Projects
           </a>
         </li>
         <li>
-          <a href="#about" onClick={() => setIsOpen(false)}>
+          <a href="/about" onClick={() => setIsOpen(false)}>
             Skills
           </a>
         </li>
         <li>
-          <a href="#projects" onClick={() => setIsOpen(false)}>
+          <a href="/Contact" onClick={() => setIsOpen(false)}>
             Contact
           </a>
         </li>

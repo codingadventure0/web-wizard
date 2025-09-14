@@ -27,7 +27,14 @@
   color: white;
 }
 
+.social-icons {
+  display: flex;
+  margin-left: 900px;
+}
+
 .social-icons a {
+  align-items: end;
+  text-align: end;
   margin-right: 20px;
   color: white;
 }
@@ -56,12 +63,17 @@
   }
 
   .footer-link {
-    display: grid;
+    display: flex;
     justify-content: center;
     margin-left: 30px;
   }
 
   .footer-link a {
     margin-bottom: 7px;
+  }
+
+  .social-icons {
+    display: grid;
+    margin-left: 1px;
   }
 }
