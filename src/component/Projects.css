@@ -5,10 +5,13 @@
 }
 
 .projects-title {
-  text-align: center;
+  text-align: left;
   font-size: 2.2rem;
   margin-bottom: 2rem;
   font-weight: 700;
+}
+.projects-title span {
+  color: linear-gradient(90deg, #C48EC3, #736BBD);
 }
 
 .projects-grid {
@@ -19,19 +22,20 @@
 }
 
 .project-card {
-  background: rgba(44, 40, 62, 0.95);
+  background: #757185;
   border-radius: 18px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   padding: 1.5rem;
-  width: 340px;
+  width: 440px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   transition: transform 0.2s;
+  /* opacity: 0.75; */
 }
 
 .project-card:hover {
   transform: translateY(-8px) scale(1.03);
+  box-shadow: #736BBD;
 }
 
 .project-img {
@@ -42,10 +46,10 @@
 }
 
 .mern-btn {
-  background: linear-gradient(90deg, #4B006E, #3F51B5);
+  background: #2D2A3E;
   color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 0.4rem 1.2rem;
   font-size: 0.95rem;
   font-weight: 600;
@@ -55,7 +59,8 @@
 }
 
 .mern-btn:hover {
-  background: linear-gradient(90deg, #3F51B5, #4B006E);
+  background: #FFF;
+  color: #000;
   transform: scale(1.08);
 }
 
@@ -68,7 +73,7 @@
 .project-desc {
   font-size: 1rem;
   margin-bottom: 1rem;
-  color: #d1c4e9;
+  color: #FFF;
 }
 
 .features-list {
@@ -79,7 +84,7 @@
 }
 
 .feature-btn {
-  background: #3F51B5;
+  background: #2D2A3E;
   color: #fff;
   border: none;
   border-radius: 16px;
@@ -91,8 +96,9 @@
 }
 
 .feature-btn:hover {
-  background: #4B006E;
-  transform: scale(1.1);
+  background: #FFF;
+  color: #2D2A3E;
+  /* transform: scale(1.1); */
 }
 
 .project-actions {
@@ -104,7 +110,7 @@
 }
 
 .action-btn {
-  background: linear-gradient(90deg, #3F51B5, #4B006E);
+  background: linear-gradient(90deg,#C48EC3, #736BBD );
   color: #fff;
   border: none;
   border-radius: 24px;
@@ -119,7 +125,6 @@
 }
 
 .action-btn:hover {
-  background: linear-gradient(90deg, #4B006E, #3F51B5);
   transform: scale(1.08);
 }
 
@@ -133,3 +138,5 @@
     max-width: 400px;
   }
 }
+
+/*  */

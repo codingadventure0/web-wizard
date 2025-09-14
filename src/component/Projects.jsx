@@ -3,8 +3,8 @@ import "./Projects.css";
 
 const projects = [
   {
-    image: "#",
-    title: "Project One",
+    image: "/LIBRARY.jpg",
+    title: "StudyHub",
     description: "A modern MERN stack application for managing tasks efficiently.",
     features: ["Authentication", "Real-time Updates", "Responsive UI"],
     links: {
@@ -14,8 +14,8 @@ const projects = [
     }
   },
   {
-    image: "#",
-    title: "Project Two",
+    image: "/CODING.jpg",
+    title: "Rank-Rush",
     description: "Collaborative platform for developers to share code and ideas.",
     features: ["Collaboration", "Code Editor", "Community"],
     links: {
@@ -25,10 +25,10 @@ const projects = [
     }
   },
   {
-    image: "#",
-    title: "Project Three",
-    description: "E-commerce solution with secure payments and analytics.",
-    features: ["Payments", "Analytics", "Product Management"],
+    image: "/SPOTIFY.jpg",
+    title: "TuneWave - Spotify Clone",
+    description: "A Music Platform with the help of Spotify API.",
+    features: ["Modern UI", "Responsive Design", "Player Bar", "Playlists Section"],
     links: {
       demo: "#",
       code: "#",
@@ -39,7 +39,7 @@ const projects = [
 
 const Projects = () => (
   <div className="projects-section">
-    <h2 className="projects-title">Featured Projects</h2>
+    <h2 className="projects-title">Featured <span>Projects</span></h2>
     <div className="projects-grid">
       {projects.map((project, idx) => (
         <div className="project-card" key={idx}>
