@@ -16,7 +16,7 @@ const Hero = () => {
         <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
         <div className="hero-buttons">
           <button className="hero-btn">View Projects</button>
-          <button className="hero-btn">Contact Me</button>
+          <button className="hero-btn2">Contact Me</button>
         </div>
         <div className="hero-techs">
           {techs.map((tech, idx) => (
